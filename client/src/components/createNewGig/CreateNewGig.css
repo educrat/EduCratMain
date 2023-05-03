@@ -1,0 +1,15 @@
+.new_gig_link{
+    text-decoration: none;
+}
+
+.create_new_gig_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    background-color: #ab1322;
+    color: white;
+    border-radius: 6px;
+}

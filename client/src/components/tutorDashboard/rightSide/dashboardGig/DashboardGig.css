@@ -1,0 +1,213 @@
+.dashboard_gig_container .dashboard_gig_filter_wrapper {
+  background-color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 3fr 0.5fr;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .one-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .two-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-left: 0.5rem;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .course-status_wrapper {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start; */
+  margin-top: 0.6rem;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .dashboard_gig_main_div
+  .gig_image {
+  height: 50px;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .student_avatar {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .studend_avatar_container {
+  position: relative;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .studend_avatar_container
+  .student_online_status {
+  position: absolute;
+  height: 10px;
+  background-color: #00ff00;
+  width: 10px;
+  bottom: 4px;
+  right: 0;
+  border-radius: 50%;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .student_name {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .course_price_wrapper
+  .course_title {
+  color: #62646a;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .course_price_wrapper
+  .course_amount {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .due_container {
+  margin-left: 2.3rem;
+}
+.dashboard_gig_container .dashboard_gig_filter_wrapper .due_data_wrapper {
+  color: #62646a;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .clock_img_wrapper
+  .clock_image {
+  height: 20px;
+  width: 20px;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .clock_img_wrapper
+  .deadline {
+  color: black;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .clock_img_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .course-status_wrapper
+  .course_status {
+  color: #62646a;
+  font-size: 0.9rem;
+  /* text-align: center; */
+  font-weight: 600;
+}
+
+.dashboard_gig_container
+  .dashboard_gig_filter_wrapper
+  .course-status_wrapper
+  .course_progress_bar {
+  background-color: #006682;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .view_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard_gig_container .dashboard_gig_filter_wrapper .view_button button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: #1dbf73;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 4px;
+  border: 1.5px solid #1dbf73;
+}
+
+@media (max-width: 970px) {
+  .dashboard_gig_container .dashboard_gig_filter_wrapper {
+    grid-template-columns: 1fr 1fr 1fr 3fr 0.5fr;
+  }
+}
+
+@media (max-width: 900px) {
+  .dashboard_gig_container .dashboard_gig_filter_wrapper {
+    height: 300px;
+    background-color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .dashboard_gig_container .dashboard_gig_filter_wrapper .course_price_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .dashboard_gig_container
+    .dashboard_gig_filter_wrapper
+    .course-status_wrapper {
+    margin-top: 0;
+  }
+
+  .dashboard_gig_container
+    .dashboard_gig_filter_wrapper
+    .course-status_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* margin-top: 0.6rem; */
+  }
+
+  .dashboard_gig_container .dashboard_gig_filter_wrapper .view_button button {
+    padding: 3px 60px;
+    border-radius: 4px;
+    border: 1.5px solid #1dbf73;
+  }
+}

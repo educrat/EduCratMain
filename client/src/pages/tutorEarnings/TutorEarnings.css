@@ -1,0 +1,168 @@
+.tutor_earnings {
+  background-color: #f7f7f7;
+  padding: 2rem 8rem;
+  min-height: 87.5vh;
+}
+.tutor_earnings .tutor_earnings_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+}
+
+.tutor_earnings .tutor_earnings_container .tutor_earnings_heading span {
+  font-size: 2.5rem;
+  font-weight: 100;
+  font-family: "Roboto", sans-serif;
+  color: #404145;
+}
+
+.tutor_earnings
+  .tutor_earnings_container
+  .tutor_earnings_heading
+  .expected_earnings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tutor_earnings
+  .tutor_earnings_container
+  .expected_earnings
+  .expected_earnings_heading {
+  font-size: 1rem;
+  color: #555555;
+}
+
+.tutor_earnings
+  .tutor_earnings_container
+  .expected_earnings
+  .expected_earnings_price {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555555;
+}
+
+.tutor_earnings .earnings_board {
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutor_earnings .earnings_board .net_income {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: white;
+  padding: 1rem;
+}
+.tutor_earnings .earnings_board .net_income .income_title {
+  color: #999999;
+  font-size: 1rem;
+  /* padding-right: 2rem; */
+  font-weight: 600;
+  /* border-right: 2px solid #999999; */
+}
+
+.tutor_earnings .earnings_board .net_income .income_value {
+  padding: 1rem;
+  /* padding-right: 2rem; */
+  justify-content: center;
+  color: black;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  /* border-right: 2px solid #999999; */
+}
+
+.tutor_earnings .earnings_board .withdrawn {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: white;
+  padding: 1rem;
+}
+.tutor_earnings .earnings_board .withdrawn .withdrawn_title {
+  color: #999999;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.tutor_earnings .earnings_board .withdrawn .withdrawn_value {
+  padding: 1rem;
+  justify-content: center;
+  color: black;
+  display: flex;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+@media (max-width: 640px) {
+  .tutor_earnings {
+    padding: 2rem 2rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .tutor_earnings .tutor_earnings_container .tutor_earnings_heading span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .tutor_earnings .tutor_earnings_container .tutor_earnings_heading span {
+    font-size: 1.5rem;
+  }
+  .tutor_earnings .tutor_earnings_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 3rem;
+  }
+
+  .tutor_earnings .tutor_earnings_container .tutor_earnings_heading span {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+  }
+
+    .tutor_earnings .tutor_earnings_container .tutor_earnings_heading span::before {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #6d6f75;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .tutor_earnings .tutor_earnings_container .tutor_earnings_heading span:before {
+    width: 100%;
+    left: 0;
+  }
+
+  .tutor_earnings .earnings_board .withdrawn .withdrawn_value {
+    font-size: 1.2rem;
+  }
+
+  .tutor_earnings .earnings_board .net_income .income_value {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 360px) {
+    .tutor_earnings .tutor_earnings_container {
+        margin-left: 2rem;
+      }
+}
+@media (max-width: 330px) {
+    .tutor_earnings .tutor_earnings_container {
+        margin-left: 1rem;
+      }
+}

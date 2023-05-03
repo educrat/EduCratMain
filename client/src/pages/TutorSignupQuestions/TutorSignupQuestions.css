@@ -1,0 +1,588 @@
+.signup-questions-page {
+	background-color: #e8edf0;
+}
+.signup-questions-page .heading {
+	padding-top: 1rem;
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	color: #404145;
+}
+
+.signup-questions-page .create_form {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	padding: 1rem;
+}
+
+.signup-questions-page .form_wrapper .form_input_name {
+	width: 100%;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgb(70, 70, 70);
+	font-family: "Poppins", sans-serif;
+	/* padding-left: 0.5rem; */
+}
+
+.signup-questions-page .form_wrapper .form_input_status {
+	width: 100%;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgb(70, 70, 70);
+	font-family: "Poppins", sans-serif;
+	padding-right: 1rem;
+}
+
+.signup-questions-page .name-div {
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 100%;
+	padding-right: 1rem;
+}
+
+.signup-questions-page .upload-image {
+	height: 9.9rem;
+	width: 9.9rem;
+	background-color: white;
+	border-radius: 50%;
+	border-style: dashed;
+}
+
+.signup-questions-page .avatar-upload-div {
+	display: block;
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.signup-questions-page .gig-input-cls {
+	word-break: break-all;
+}
+.signup-questions-page .avatar-img {
+	position: absolute;
+	right: -1px;
+	bottom: 0px;
+	border-radius: 50%;
+	height: 10rem;
+	width: 10rem;
+	object-fit: fill;
+	overflow: hidden;
+}
+
+.signup-questions-page .image_upload_wrapper input {
+	display: none;
+}
+
+.signup-questions-page .image_upload_wrapper label {
+	margin: 1rem 0;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 35px;
+	width: 35px;
+	padding: 0 0.5rem;
+	line-height: 30px;
+	text-align: center;
+	background: #fff;
+	color: #fff;
+	font-size: 14px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	border-radius: 50%;
+	cursor: pointer;
+	text-align: center;
+	border: 2px solid #e8edf0;
+}
+
+.signup-questions-page .upload-btn {
+	height: 20px;
+	width: 20px;
+	margin-top: 5px;
+}
+
+.signup-questions-page .image_upload_wrapper label:hover {
+	background: #fff;
+	color: rgb(37, 83, 184);
+	border: 2px solid #e8edf0;
+}
+
+.signup-questions-page .create_form .images_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	margin-top: 1rem;
+}
+
+.signup-questions-page .form_wrapper {
+}
+
+.signup-questions-page .create_form .images_input_container {
+	/* border: 2px solid black; */
+	border-radius: 3px;
+	width: 100%;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	background-color: #ffffff;
+}
+
+.signup-questions-page .form_wrapper .form_input_fname {
+	width: 100%;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgb(71, 70, 70);
+	font-family: "Poppins", sans-serif;
+	/* margin-right: 1rem; */
+}
+
+.signup-questions-page .form_wrapper .form_input_title {
+	width: 100%;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgb(71, 70, 70);
+	font-family: "Poppins", sans-serif;
+	/* padding-left: 5px; */
+}
+
+.signup-questions-page .form_wrapper .form_input_desc {
+	width: 100%;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 600;
+	color: rgb(70, 70, 70);
+	font-family: "Poppins", sans-serif;
+	margin-bottom: 1rem;
+	padding-right: 1rem;
+}
+
+.signup-questions-page .bottom-text {
+	margin-left: 0.7rem;
+	font-size: 0.7rem;
+	color: rgb(117, 117, 117);
+}
+
+.signup-questions-page .form_wrapper .form_input_title-upload {
+	width: 100%;
+	text-align: left;
+	font-size: 0.9rem;
+	color: #7a7d83;
+}
+
+.signup-questions-page .form_wrapper .form_input_title-video {
+	width: 100%;
+	text-align: left;
+	font-size: 1rem;
+	font-weight: 700;
+	color: black;
+}
+
+.signup-questions-page .create_form input {
+	padding: 0.5rem 1rem;
+	margin: 0.3rem 0.5rem 1rem 0.5rem;
+	/* outline: none; */
+	/* border: 2px solid black; */
+	font-size: 0.9rem;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.signup-questions-page .create_form textarea {
+	padding: 0.5rem 1rem;
+	margin: 0.3rem 0.5rem 0rem 0.5rem;
+	/* outline: none; */
+	/* border: 2px solid black; */
+	font-size: 0.9rem;
+	border: none;
+	border-radius: 3px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.signup-questions-page .create_form input::placeholder,
+.signup-questions-page .create_form textarea::placeholder,
+.signup-questions-page .create_form select::placeholder {
+	color: #7a7d83;
+}
+
+.create_new_gig_page .create_form .common-btn {
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	border: 2px solid #ab1322;
+	background: #ab1322;
+	font-size: 1rem;
+	color: white;
+	cursor: pointer;
+}
+
+.create_new_gig_page .create_form .common-btn:hover {
+	border: 2px solid #ab1322;
+	background: white;
+	color: #ab1322;
+}
+
+/* .signup-questions-page .form_wrapper .name-input {
+  margin-left: 0;
+} */
+
+.signup-questions-page .second-col {
+	height: 20px;
+}
+
+.signup-questions-page .first-col {
+	height: 20px;
+}
+
+.signup-questions-page .third-col {
+	height: 20px;
+}
+
+.signup-questions-page .lang-table {
+	border: 1.5px solid rgb(194, 194, 194);
+	display: flex;
+	background-color: white;
+}
+
+.signup-questions-page .add-div {
+	height: 47px;
+	width: 6rem;
+}
+
+.signup-questions-page .add-btn {
+	margin: 8px 8px 0 1rem;
+	padding: 0.5rem 1.5rem;
+	border: none;
+	background-color: #1dbf73;
+	color: white;
+	border-radius: 2px;
+	font-weight: 600;
+}
+
+.signup-questions-page .second-col {
+	padding-left: 5px;
+}
+
+.signup-questions-page .create_form select {
+	padding: 0.5rem 1rem;
+	margin: 0.3rem 0.5rem 1rem 0.5rem;
+	outline: none;
+	border: 1.5px solid rgb(160, 160, 160);
+	font-size: 0.9rem;
+	border-radius: 3px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+.signup-questions-page .selected-head {
+	display: grid;
+	grid-template-columns: 2fr 2.4fr 1fr;
+	align-items: center;
+	justify-content: start;
+	border: 1.5px solid rgb(160, 160, 160);
+	margin: 0.5rem 0 0 0;
+	padding: 0.5rem;
+	background-color: rgb(242, 241, 241);
+}
+
+.signup-questions-page .selected-head2 {
+	display: grid;
+	grid-template-columns: 2fr 2.8fr 1.5fr;
+	align-items: center;
+	justify-content: start;
+	border: 1.5px solid rgb(160, 160, 160);
+	margin: 0.5rem 0 0 0;
+	padding: 0.5rem;
+	background-color: rgb(242, 241, 241);
+}
+
+.signup-questions-page .selected-head4 {
+	display: grid;
+	grid-template-columns: 4fr 1.5fr 1fr;
+	align-items: center;
+	justify-content: start;
+	border: 1.5px solid rgb(160, 160, 160);
+	margin: 0.5rem 0 0 0;
+	padding: 0.5rem;
+	background-color: rgb(242, 241, 241);
+}
+
+.signup-questions-page .sel-heading {
+	color: rgb(101, 101, 101);
+	font-size: 0.9rem;
+}
+
+.signup-questions-page .selected-fields {
+	display: grid;
+	grid-template-columns: 2fr 2.4fr 1fr;
+	align-items: center;
+	justify-content: start;
+	border: 1.5px solid rgb(160, 160, 160);
+	border-top: none;
+	/* margin: 0.5rem 0 0 0; */
+	padding: 0.5rem;
+	background-color: white;
+}
+
+.signup-questions-page .sel-fel {
+	word-break: break-all;
+}
+
+.signup-questions-page .selected-fields2 {
+	display: grid;
+	grid-template-columns: 2fr 2.8fr 0.9fr 0.1fr;
+	align-items: center;
+	justify-content: start;
+	border: 1.5px solid rgb(160, 160, 160);
+	border-top: none;
+	/* margin: 0.5rem 0 0 0; */
+	padding: 0.5rem;
+	background-color: white;
+	word-break: break-all;
+}
+
+.signup-questions-page .selected-fields4 {
+	display: grid;
+	grid-template-columns: 4fr 1.5fr 1fr;
+	align-items: center;
+	justify-content: start;
+	border: 1.5px solid rgb(160, 160, 160);
+	border-top: none;
+	/* margin: 0.5rem 0 0 0; */
+	padding: 0.5rem;
+	background-color: white;
+}
+.signup-questions-page .delete-img {
+	height: 20px;
+	width: 20px;
+	cursor: pointer;
+	margin-left: 2rem;
+}
+
+.signup-questions-page .dummy {
+	background-color: black;
+}
+
+.signup-questions-page .delete-btn {
+	background-color: white;
+	border: none;
+}
+
+.signup-questions-page .submit-btn {
+	margin-top: 1rem;
+	padding: 0.5rem 1.5rem;
+	border-radius: 5px;
+	border: 2px solid #1e3a8a;
+	background: #1e3a8a;
+	font-size: 1rem;
+	color: white;
+	cursor: pointer;
+}
+
+.signup-questions-page .submit-btn:hover {
+	border: 2px solid #1e3a8a;
+	background: white;
+	color: #1e3a8a;
+}
+
+.signup-questions-page .dropdown1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+}
+
+.signup-questions-page .certificate-input {
+	margin-right: 5px;
+}
+
+.signup-questions-page .certificate-input input {
+	border: 1.5px solid rgb(160, 160, 160);
+	padding-left: 0.5rem;
+	padding-right: 0rem;
+}
+
+.signup-questions-page .certificate-input1 input {
+	margin-right: -0.7rem;
+}
+
+.signup-questions-page .certificate-input2 input {
+	margin-right: 4rem;
+}
+
+.signup-questions-page .certificate-input3 input {
+	margin-right: -8.5rem;
+}
+
+.signup-questions-page .certificate-input input::-webkit-input-placeholder {
+	color: black;
+}
+
+.signup-questions-page .cert-table {
+	border: 1.5px solid rgb(194, 194, 194);
+	display: flex;
+	background-color: white;
+	height: 50px;
+	/* width: 500px; */
+}
+
+.signup-questions-page .add-btn2 {
+	margin: 8px 0.3rem 0 0.7rem;
+	padding: 0.5rem 1.5rem;
+	border: none;
+	background-color: #1dbf73;
+	color: white;
+	border-radius: 2px;
+	font-weight: 600;
+}
+
+.signup-questions-page .website-table {
+	border: 1.5px solid rgb(194, 194, 194);
+	display: flex;
+	background-color: white;
+	height: 50px;
+	max-width: 430px;
+}
+
+.signup-questions-page .website-input input {
+  width: 96%;
+	border: 1.5px solid rgb(160, 160, 160);
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-left: 0.5rem;
+	margin-right: 11.8rem;
+	word-break: break-all;
+}
+
+.signup-questions-page .dropdown2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  width:  100%;
+}
+.signup-questions-page .create_form .skill-select {
+	padding: 0.5rem 1rem;
+	margin: 0.3rem 9rem 1rem 0.5rem;
+	outline: none;
+	border: 1.5px solid rgb(160, 160, 160);
+	font-size: 0.9rem;
+	border-radius: 3px;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+@media (max-width: 950px) {
+	.signup-questions-page .dropdown1 {
+		display: grid;
+		grid-template-columns: 1fr;
+		width: 100%;
+	}
+
+	.signup-questions-page .dropdown2 {
+		display: grid;
+		grid-template-columns: 1fr;
+		margin-right: 1rem;
+		width: 100%;
+	}
+
+	.signup-questions-page .grid-one {
+		margin: 0.5rem;
+	}
+
+	.signup-questions-page .grid-two {
+		margin-left: 0.5rem;
+	}
+
+	.signup-questions-page .cert-grid {
+		margin-top: 0.5rem;
+	}
+
+	.signup-questions-page .create_form {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+		padding: 1rem;
+		padding-left: 0.5rem;
+	}
+}
+
+@media (max-width: 650px) {
+	.signup-questions-page .name-div {
+		display: grid;
+		gap: 0.5rem;
+		grid-template-columns: 1fr;
+		padding-right: 0rem;
+	}
+
+	.signup-questions-page .form_wrapper .form_input_status {
+		/* padding: 0.5rem 1rem; */
+		margin: 0.5rem 0.5rem 0.5rem 0rem;
+		padding-right: 0rem;
+	}
+
+	.signup-questions-page .create_form textarea {
+		padding: 0.5rem 1rem;
+		margin: 0.3rem 0.5rem 0rem 0rem;
+	}
+
+	.signup-questions-page .create_form input {
+		padding: 0.5rem 1rem;
+		margin: 0.3rem 0.5rem 0.5rem 0rem;
+	}
+
+	.signup-questions-page #select-2 {
+		margin: 0.3rem 0.5rem;
+	}
+	.signup-questions-page #select-3 {
+		margin-left: 0.5rem;
+	}
+
+	.signup-questions-page #select-4 {
+		margin-left: 0.5rem;
+		padding-right: 2rem;
+		width: 95%;
+	}
+
+	.signup-questions-page .create_form #input1 {
+		/* padding: 0.5rem 1rem; */
+		margin-left: 0.5rem;
+		width: 280px;
+	}
+
+	.signup-questions-page .website-table {
+		max-width: 300px;
+	}
+	.signup-questions-page .heading {
+		font-size: 1.5rem;
+	}
+
+	.signup-questions-page .form_wrapper .form_input_desc {
+		padding-right: 0rem;
+	}
+
+	.signup-questions-page .add-btn2 {
+		margin: 8px 0.3rem 0 0.3rem;
+		padding: 0.5rem 1rem;
+	}
+}
+
+@media (max-width: 450px) {
+	.signup-questions-page .add-btn {
+		margin: 8px 5px 0 1rem;
+		padding: 0.5rem 0.7rem;
+		font-weight: 500;
+	}
+
+	.signup-questions-page .website-table {
+		width: 300px;
+	}
+
+	.signup-questions-page .create_form .skill-select {
+		margin: 0.3rem 8.5rem 1rem 0.5rem;
+	}
+}

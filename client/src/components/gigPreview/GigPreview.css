@@ -1,0 +1,113 @@
+.gig-preview {
+  width: 100%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.gig-preview .swiper-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gig-preview .img-wrapper {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+.gig-preview .avatar_wrapper1 {
+  margin-top: 0.3rem;
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #62646a;
+}
+
+.gig-preview .avatar_img {
+  border-radius: 50%;
+  margin: 0px 8px;
+  height: 30px;
+  width: 30px;
+}
+
+.gig-preview .avatar_name {
+  font-size: 1rem;
+}
+
+.gig-preview .course_wrapper {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4;
+}
+
+.gig-preview .course_name {
+  background-color: rgb(235, 235, 255);
+  color: rgb(52, 47, 152);
+  font-size: 1rem;
+  /* margin-left: 10px; */
+  padding: 4px;
+  font-weight: 500;
+}
+
+.gig-preview .course_price {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.gig-preview .line-wrapper {
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.gig-preview .line-title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #222325;
+  text-decoration: none;
+  text-align: start;
+}
+
+.gig-preview .gig-heading:hover {
+  color: #1dbf73;
+}
+
+.gig-preview .around_wrapper {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.gig-preview .rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gig-preview .star_wrapper {
+  display: flex;
+  width: 30px;
+  height: 30px;
+}
+
+.gig-preview .rating {
+  margin-top: 0.4rem;
+  color: #222325;
+}
+
+.gig-preview .student-count {
+  margin-right: 5px;
+  color: #222325;
+}

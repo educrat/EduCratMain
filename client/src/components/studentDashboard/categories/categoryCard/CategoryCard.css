@@ -1,0 +1,65 @@
+.category_container{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px inset; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px inset;
+    display: flex;
+    border-radius: 4px;
+    padding: 5px 10px;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+}
+
+.category_container:hover{
+  background-color: rgb(228, 228, 228);
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+    /* box-shadow: none; */
+}
+
+.category_container .img_wrapper{
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.category_container .title_wrapper{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #404145;
+}
+
+.category_container .title_wrapper:hover{
+  color: black;
+}
+
+.category_container .field-name{
+    text-decoration: none;
+}
+
+.category_container .field-name:link {
+    text-decoration: none;
+  }
+  
+  .category_container .field-name:visited {
+    text-decoration: none;
+  }
+  
+  .category_container .field-name:hover {
+    text-decoration: none;
+  }
+  
+  .category_container .field-name:active {
+    text-decoration: none;
+  }
+
+@media (max-width:900px){
+
+    .category_container .title_wrapper{
+        font-size: 0.9rem;
+    }
+}

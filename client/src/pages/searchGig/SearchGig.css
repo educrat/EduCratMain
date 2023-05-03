@@ -1,0 +1,34 @@
+.search-page {
+	margin: 2.5rem 2rem;
+	min-height: 100vh;
+}
+
+.search-page .gig-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 45px;
+}
+
+.search-page .result-heading {
+	font-size: 2rem;
+	color: #222325;
+	margin-bottom: 1.5rem;
+}
+
+.search-page .search-count {
+	font-size: 0.9rem;
+	color: #74767e;
+	margin-bottom: 1rem;
+}
+
+.search-page .search-count1 {
+	font-size: 0.9rem;
+	color: #74767e;
+	margin-bottom: 2rem;
+}
+
+.search-page .search-gig-users-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}

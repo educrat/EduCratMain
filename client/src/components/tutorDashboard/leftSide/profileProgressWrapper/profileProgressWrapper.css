@@ -1,0 +1,100 @@
+.tutor_dashboard_page .dashboard_container .left_side .profile_details_wrapper {
+  background: white;
+  border-radius: 5px;
+  padding: 1rem;
+  /* border: 4px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.tutor_dashboard_page
+  .dashboard_container
+  .profile_details_wrapper
+  .name_rating {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding-bottom: 1rem;
+  text-align: left;
+}
+
+.tutor_dashboard_page
+  .dashboard_container
+  .left_side
+  .profile_details_wrapper
+  .avatar_container .dashboard_avatar_wrapper {
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #62646a;
+}
+
+
+.tutor_dashboard_page
+  .dashboard_container
+  .left_side
+  .profile_details_wrapper
+  .avatar_container .dashboard_avatar_wrapper .avatar_img {
+    border-radius: 50%;
+    margin: 0px 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.tutor_dashboard_page
+  .dashboard_container
+  .left_side
+  .profile_details_wrapper
+  .avatar_container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile_details_wrapper .star_rating_container{
+	display: flex;
+	align-items: center;
+}
+.tutor_dashboard_page .left_side .profile_details_wrapper .star_rating {
+  width: 30px;
+  height: 30px;
+  display: grid;
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.profile_details_wrapper .star_rating_container span{
+	display: grid;
+	grid-row: 2/4;
+	color: #62646a;
+}
+
+.tutor_dashboard_page .left_side .progress_Wrapper .rating {
+  height: 7px;
+  width: 50px;
+  border-radius: 60px;
+  background: green;
+  display: grid;
+  grid-row: 2/3;
+}
+
+.tutor_dashboard_page .left_side .progress_Wrapper .rating_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0;
+  color: #404145;
+  font-size: 0.9rem;
+}
+
+.tutor_dashboard_page
+  .dashboard_container
+  .left_side
+  .profile_details_wrapper_shadow {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  margin: 1rem;
+}

@@ -1,0 +1,25 @@
+.trending_cat_wrapper {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: #404145;
+}
+
+@media (max-width: 800px) {
+  .trending_cat_wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .trending_cat_wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) {
+  .trending_cat_wrapper {
+    grid-template-columns: 1fr;
+  }
+}

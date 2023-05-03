@@ -1,0 +1,245 @@
+.navbar {
+  padding: 1rem 2rem;
+  background-color: #ab1322;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .left_side,
+.navbar .right_side {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar .left_side .name {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.navbar .mid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .right_side span {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  padding-right: 10px;
+}
+
+.navbar .right_side a:link {
+  text-decoration: none;
+}
+
+.navbar .right_side button {
+  font-size: 0.9rem;
+  background-color: transparent;
+  padding: 4px 20px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navbar .right_side button:after::hover {
+  background-color: transparent;
+  color: white;
+  border: 1.5px solid white;
+  border-radius: 4px;
+}
+
+.navbar .right_side button:hover {
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+
+.sidebar_container .side_bar {
+  /* min-height: 90.2vh; */
+  min-height: 100vh;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem 0;
+}
+
+.sidebar_container .side_bar a {
+  text-decoration: none;
+}
+
+.sidebar_container .side_bar span {
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+.sidebar_container .side_bar button {
+  background: white;
+  color: black;
+  border-radius: 5px;
+  padding: 0.5rem 2.5rem;
+  outline: none;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+}
+
+.nav_bottom_search_box {
+  padding: 1rem 0.5rem;
+  display: none;
+}
+
+.login_signup_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+.login_signup_container a {
+  color: white;
+}
+
+.login_signup_container .join_btn {
+  background-color: white;
+  color: #000000;
+  padding: 3px 13px;
+  border-radius: 5px;
+}
+
+.nav_bottom_search_box .searchBox {
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: auto;
+  width: 90%;
+}
+
+.nav_bottom_search_box .searchBox .searchInput {
+  width: 100%;
+}
+
+.sidebar_container .side_bar {
+  display: none;
+  z-index: 1000;
+}
+
+.dash-link {
+  /* background-color: #ab1322; */
+  color: white;
+  border: 1px solid white;
+  padding: 0.3rem 2.7rem;
+  border-radius: 4px;
+}
+
+.dash-link1 {
+  /* background-color: #ab1322; */
+  color: white;
+  border: 1px solid white;
+  padding: 0.3rem 3.7rem;
+  border-radius: 4px;
+}
+
+.navbar_toggle {
+  display: none;
+}
+
+@media screen and (max-width: 950px) {
+  .navbar .right_side {
+    display: none;
+  }
+  .sidebar_container .side_bar_menu {
+    display: flex;
+  }
+
+  .navbar_toggle {
+    display: block;
+  }
+
+  .navbar_toggle button {
+    padding: 0;
+    margin: 0;
+    background-color: #ab1322;
+    border: none;
+  }
+
+  .navbar_toggle .hamburger {
+    background-color: transparent;
+    width: 25px;
+    width: 25px;
+  }
+
+  .sidebar_container .side_bar span {
+    /* border: 1.5px solid #fafafa; */
+    color: #fafafa;
+    border-radius: 5px;
+    padding: 8px 15px;
+  }
+
+  .sidebar_container .side_bar span:hover {
+    text-decoration: underline;
+  }
+
+  .sidebar_container .side_bar button {
+    font-weight: 600;
+    background: white;
+    border: 1.5px solid #fafafa;
+    color: #000000;
+    padding: 4px 20px;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  .navbar .mid {
+    display: none;
+  }
+  .sidebar_container .side_bar .nav_bottom_search_box {
+    display: flex;
+    padding: 1rem;
+    border: none;
+  }
+
+  .nav_bottom_search_box .searchBox {
+    border: none;
+  }
+
+  .nav_bottom_search_box {
+    background-color: #f0f2f5;
+
+    display: flex;
+  }
+}

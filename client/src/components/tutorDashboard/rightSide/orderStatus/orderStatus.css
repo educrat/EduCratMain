@@ -1,0 +1,38 @@
+.tutor_dashboard_page_order_status .order_status_filter_wrapper {
+
+    background-color: white;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.tutor_dashboard_page_order_status .order_status_filter_wrapper .active_order_status{
+    font-weight: 600;
+}
+
+.tutor_dashboard_page_order_status .order_status_filter_wrapper .option_wrapper select{
+    font-size: 1rem;
+    padding: 0.5rem;
+    font-weight: 400;
+    outline: none;
+}
+
+@media (max-width:440px){
+
+    .tutor_dashboard_page_order_status {
+        display: grid;
+        grid-template-columns: 1fr 0.75fr;
+    } 
+     .tutor_dashboard_page_order_status .order_status_filter_wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    } 
+
+    .tutor_dashboard_page_order_status .order_status_filter_wrapper .active_order_status{
+        margin-bottom: 10px;
+    }
+}

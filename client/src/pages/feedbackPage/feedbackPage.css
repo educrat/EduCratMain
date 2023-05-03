@@ -1,0 +1,50 @@
+.feedbackPage {
+  max-width: 650px;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+
+.feedbackPage .feedback_page {
+  color: rgb(74, 67, 67);
+}
+.feedbackPage textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  outline: none;
+  margin: 0 1rem;
+}
+
+.feedbackPage select {
+  width: 100%;
+  resize: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  outline: none;
+  margin: 0 1rem;
+}
+
+.feedbackPage button {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #333;
+  color: #fff;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0 1rem;
+  margin-top: 0.5rem;
+}

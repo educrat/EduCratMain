@@ -1,0 +1,32 @@
+.image_upload_wrapper input {
+  display: none;
+}
+
+.image_upload_wrapper label {
+  display: block;
+  /* height: 2rem; */
+  padding: 0.3rem  0.7rem;
+  /* line-height: 30px; */
+  text-align: center;
+  background: #09f;
+  color: #fff;
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  border-radius: 2px;
+  cursor: pointer;
+  border: 1.5px solid #09f;
+}
+
+.image_upload_wrapper label:hover {
+	background:#fff;
+	color: #09f;
+	border: 1.5px solid rgb#09f;
+}
+
+@media (max-width:350px){
+  .image_upload_wrapper label {
+    padding: 0.3rem  0.7rem;
+    font-size: 0.9rem;
+  }
+}

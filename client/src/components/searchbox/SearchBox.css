@@ -1,0 +1,129 @@
+
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+.searchInput {
+    /* border-left: 1.5px  solid white;
+    border-bottom: 1.5px  solid white;
+    border-top:  1.5px  solid white; */
+    border: 1.5px solid #222325;
+    border-right:  0px ;
+    border-radius: 4px 0px 0px 4px;
+    background: white;
+    outline:none;
+    float:left;
+    padding: 0 10px;
+    color: #222325;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 32px;
+    width: 300px;
+
+}
+
+.searchButton{
+    height: 35px;
+    padding: 4px;
+    background-color: white;
+    border:1.5px solid #222325;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+@media screen and (max-width: 620px) {
+.searchBox:hover > .searchInput {
+    width: 150px;
+    padding: 0 6px;
+}
+}
+
+
+::selection{
+    color: #fff;
+    background: #664AFF;
+  }
+  .wrapper{
+    max-width: 600px;
+    margin: 0px auto;
+    
+  }
+  .wrapper .search-input{
+    background: #fff;
+    width: 100%;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0px 1px 5px 3px rgba(0,0,0,0.12);
+  }
+  .search-input input{
+    height: 55px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 0 60px 0 20px;
+    font-size: 18px;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
+  }
+  .search-input.active input{
+    border-radius: 5px 5px 0 0;
+  }
+  .search-input .autocom-box{
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+  .search-input.active .autocom-box{
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: inherit;
+  }
+  .autocom-box li{
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: default;
+    border-radius: 3px;
+  }
+  .search-input.active .autocom-box li{
+    display: block;
+  }
+  .active{
+    display: block;
+  }
+  .autocom-box li:hover{
+    background: #9fd4d6;
+    cursor: pointer;
+  }
+  .selected{
+    background: #9fd4d6;
+    
+  }
+  .search-input .icon{
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    height: 57px;
+    width: 55px;
+    text-align: center;
+
+    font-size: 20px;
+    color: #644bff;
+    cursor: pointer;
+  }
+
+
+

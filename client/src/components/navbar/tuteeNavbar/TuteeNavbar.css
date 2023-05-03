@@ -1,0 +1,50 @@
+.tutee_navbar{
+    padding: 1rem 2rem ;
+    background-color: #f87171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tutee_navbar .left_side, .tutee_navbar .right_side{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 950px) {
+    .navbar .right_side{
+      display: none;
+    }
+    .side_bar{
+      background: #000;
+    }
+    .side_bar .nav_bottom_search_box{
+      /* display: none; */
+      width: 100%;
+      background: #000;
+      
+    }
+    
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .navbar .mid{
+      display: none;
+    }
+    .side_bar .nav_bottom_search_box{
+      display: flex;
+      padding: 1rem;
+      border: 2px solid black;
+  
+    }
+    .side_bar .nav_bottom_search_box{
+      /* display: none; */
+      width: 100%;
+      background: purple;
+    }
+    
+  }

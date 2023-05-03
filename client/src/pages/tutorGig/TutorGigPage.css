@@ -1,0 +1,698 @@
+/* first -div */
+.tutor-gig-page .main-div-wrapper {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 3rem;
+  background-color: #f5f7fa;
+}
+
+.tutor-gig-page .first-div {
+  height: max-content;
+  width: 66.666667%;
+  background-color: cadetblue;
+  margin-right: 1rem;
+  background-color: #f5f7fa;
+}
+
+.tutor-gig-page .gig-title {
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: rgb(29, 32, 38);
+}
+
+.tutor-gig-page .title-subheading {
+  font-size: 1.3rem;
+  color: rgb(78, 85, 102);
+  margin-top: 1rem;
+}
+
+.tutor-gig-page .tutor-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.tutor-gig-page .tutor-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.tutor-gig-page .tutor-avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.tutor-gig-page .tutor-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(29, 32, 38);
+  margin-left: 1rem;
+}
+
+.tutor-gig-page .rating-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2rem;
+}
+
+.tutor-gig-page .rating-wrapper1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+}
+.tutor-gig-page .star-img {
+  height: 30px;
+  width: 30px;
+}
+
+.tutor-gig-page .gig_message {
+  margin: 0 1rem;
+}
+
+.tutor-gig-page .gig_message .gig_message_btn {
+  background-color: #ffeee8;
+  color: #ff6636;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: none;
+}
+
+.tutor-gig-page .gig_message .gig_message_btn:hover {
+  background-color: #f17c58;
+  color: #ffeee8;
+}
+
+.tutor-gig-page .rating {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(78, 85, 102);
+  padding: 5px 0 0 5px;
+}
+
+.tutor-gig-page .rating-no {
+  font-size: 1rem;
+  color: rgb(161, 165, 179);
+  padding: 5px 0 0 3px;
+}
+
+.tutor-gig-page .my-swiper {
+  /* height: 400px;
+  background-color: green; */
+}
+
+.tutor-gig-page .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.tutor-gig-page .swiper-slide {
+  overflow: hidden;
+}
+
+.tutor-gig-page .swiper-div {
+  margin-top: 2rem;
+}
+
+.tutor-gig-page .desc-wrapper {
+  margin-top: 2rem;
+}
+
+.tutor-gig-page .desc-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(33, 37, 41);
+}
+
+.tutor-gig-page .learning-containers {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: rgba(225, 247, 227, 0.4);
+  background-color: white;
+}
+
+.tutor-gig-page .desc {
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: rgb(78, 85, 102);
+  word-break: break-all;
+}
+
+.tutor-gig-page .learning-points-wrapper {
+  margin-top: 1rem;
+}
+
+.tutor-gig-page .points {
+  /* display: flex;
+  align-items: baseline;
+  justify-content: space-between; */
+  margin-top: 1rem;
+}
+
+.tutor-gig-page .correct-img {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  top: 5px;
+  bottom: 10px;
+}
+
+.tutor-gig-page .learning-container1 {
+  margin-left: 10px;
+}
+
+.tutor-gig-page .points1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 1rem;
+}
+
+.tutor-gig-page .requ-container {
+  margin-top: 2rem;
+}
+
+.tutor-gig-page .desc-heading1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(33, 37, 41);
+  margin-top: 2rem;
+}
+
+.tutor-gig-page .rem-wrapper {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.tutor-gig-page .tutor-container {
+  padding: 1rem;
+  margin-top: 1rem;
+  display: flex;
+  /* border: 1px solid gray; */
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+.tutor-gig-page .tut-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.tutor-gig-page .info-div {
+  margin-left: 1rem;
+}
+
+.tutor-gig-page .tutor-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6e7485;
+}
+
+.tutor-gig-page .tut-desc {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #6e7485;
+}
+
+.tutor-gig-page .detail-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin: 0.5rem 0;
+}
+
+.tutor-gig-page .tutor-name1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(29, 32, 38);
+  margin-bottom: 0.5rem;
+}
+
+/* second - div */
+.tutor-gig-page .second-div {
+  width: 33.333333%;
+  margin-left: 1rem;
+  /* position: fixed; */
+  position: sticky;
+  right: 3rem;
+  top: 2rem;
+  width: 350px;
+  align-self: flex-start;
+  /* overflow-y:visible;
+  overflow-x:hidden; */
+  scroll-behavior: smooth;
+}
+
+.tutor-gig-page .second-div {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.tutor-gig-page .prizing {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid rgb(184, 184, 184);
+}
+
+.tutor-gig-page .prizing3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  /* border-bottom: 1px solid rgb(184, 184, 184); */
+}
+.tutor-gig-page .prize {
+  display: flex;
+  align-items: baseline;
+  justify-content: baseline;
+}
+
+.tutor-gig-page .selling-prize {
+  font-size: 2rem;
+  color: rgb(29, 32, 38);
+}
+
+.tutor-gig-page .actual-prize {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  color: rgb(140, 148, 163);
+  text-decoration: line-through;
+}
+
+.tutor-gig-page .discount {
+  font-size: 0.9rem;
+  color: rgb(255, 102, 54);
+  background-color: #ffeee8;
+  padding: 4px 8px;
+  /* font-weight: 600; */
+}
+
+.tutor-gig-page .prizing2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.tutor-gig-page .prizing1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem 1rem 1rem;
+}
+
+.tutor-gig-page .course-details {
+  display: flex;
+  /* align-items: baseline;
+  justify-content: baseline; */
+  align-items: center;
+  justify-content: center;
+}
+
+.tutor-gig-page .info-img {
+  height: 15px;
+  width: 15px;
+}
+
+.tutor-gig-page .course-level {
+  margin-left: 0.5rem;
+  font-size: 1rem;
+
+  color: rgb(110, 116, 133);
+}
+
+.tutor-gig-page .course-info {
+  font-size: 1rem;
+  color: rgb(29, 32, 38);
+}
+
+.tutor-gig-page .buy {
+  padding: 1rem;
+  padding-bottom: 0;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 1px solid rgb(184, 184, 184); */
+}
+
+.tutor-gig-page .buy-btn-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutor-gig-page .buy1 {
+  padding: 1rem;
+  padding-bottom: 0;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border-bottom: 1px solid rgb(184, 184, 184); */
+}
+
+.tutor-gig-page .buy-btn {
+  width: 317px;
+  height: 3rem;
+  font-size: 1.3rem;
+  color: white;
+  background-color: #ff6636;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1.5px solid #ff6636;
+}
+
+.tutor-gig-page .buy-btn:hover {
+  color: #ff6636;
+  border: 1.5px solid #ff6636;
+  background-color: white;
+  box-shadow: #f17c58 0px 2px 8px 0px;
+  transition: 0.1s ease-in-out;
+}
+
+.tutor-gig-page .message-btn {
+  width: 330px;
+  height: 3rem;
+  font-size: 1.3rem;
+  background-color: white;
+  color: #ff6636;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: 1.5px solid #ff6636;
+}
+
+.tutor-gig-page .message-btn:hover {
+  background-color: #ff6636;
+  border: 1.5px solid #ff6636;
+  color: white;
+  box-shadow: #f17c58 0px 2px 8px 0px;
+  transition: 0.1s ease-in-out;
+}
+
+.tutor-gig-page .features {
+  padding: 1rem;
+}
+
+.tutor-gig-page .feat-heading {
+  font-size: 1.2rem;
+  color: rgb(78, 85, 102);
+  padding-bottom: 1rem;
+}
+
+.tutor-gig-page .feat-wrapper {
+  display: grid;
+  grid-template-columns: 0.4fr 3fr;
+  padding-bottom: 0.5rem;
+}
+
+.tutor-gig-page .feat-wrapper1 {
+  display: grid;
+  grid-template-columns: 0.1fr 3fr;
+  /* padding-bottom: 0.5rem; */
+  margin-top: 1rem;
+}
+
+.tutor-gig-page .feat-wrapper2 {
+  display: grid;
+  grid-template-columns: 0.16fr 3fr;
+  padding-bottom: 0.5rem;
+}
+
+.tutor-gig-page .feat-img {
+  height: 25px;
+  width: 25px;
+  display: grid;
+  grid-template-rows: 1fr 1rem;
+  grid-column: 1/2;
+}
+
+.tutor-gig-page .featured-img {
+  padding-left: 2px;
+}
+
+.tutor-gig-page .featured-img1 {
+  padding-left: 4px;
+  padding-top: 2px;
+}
+
+.tutor-gig-page .feature {
+  margin-left: 5px;
+  font-size: 1rem;
+  grid-column: 2/3;
+  word-break: break-all;
+}
+
+.tutor-gig-page .learning-wrapper {
+  display: grid;
+  grid-template-columns: 0.15fr 3fr;
+  padding-bottom: 0.5rem;
+}
+
+.tutor-gig-page .learning-img {
+  height: 25px;
+  width: 25px;
+  display: grid;
+  grid-template-rows: 1fr 1rem;
+  grid-column: 1/2;
+}
+
+.tutor-gig-page .learning-img {
+  padding-left: 2px;
+  padding-top: 2px;
+}
+
+.tutor-gig-page .learning {
+  margin-left: 5px;
+  font-size: 1rem;
+  grid-column: 2/3;
+}
+
+/* gig commenter css */
+.tutor-gig-page .gig-comments-wrapper {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 2px;
+}
+
+.tutor-gig-page .comment_heading {
+  font-size: 1.2rem;
+  color: #343537;
+  font-weight: 600;
+  margin-left: 1rem;
+}
+.tutor-gig-page .gig_comment_wrapper {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.tutor-gig-page .gig-commenter-info {
+  /* margin-top: 0.5rem; */
+}
+.tutor-gig-page .commenter_details {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 0.6rem;
+}
+.tutor-gig-page .gig-commenter-name {
+  font-size: 1.1rem;
+  padding-top: 4px;
+  font-weight: 600;
+  color: #1c1c1e;
+}
+.tutor-gig-page .gig-commenter-desc {
+  margin-left: 2.2rem;
+  font-size: 0.9rem;
+  color: #4e5053;
+}
+
+.tutor-gig-page .avatar_img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  object-fit: fill;
+  overflow: hidden;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+/* media queries */
+@media (max-width: 1170px) {
+  .tutor-gig-page .main-div-wrapper {
+    display: flex;
+    /* position: absolute; */
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #f5f7fa;
+  }
+
+  .tutor-gig-page .first-div {
+    height: max-content;
+    width: 100%;
+  }
+
+  .tutor-gig-page .second-div {
+    width: 100%;
+    margin-top: 2rem;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .tutor-gig-page .buy-btn {
+    width: 330px;
+  }
+
+  .tutor-gig-page .feat-wrapper {
+    display: grid;
+    grid-template-columns: 0.12fr 3fr;
+    padding-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .tutor-gig-page .feat-wrapper {
+    display: grid;
+    grid-template-columns: 0.2fr 3fr;
+    padding-bottom: 0.5rem;
+  }
+
+  .tutor-gig-page .tutor-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+
+  .tutor-gig-page .tut-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  .tutor-gig-page .info-div {
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .tutor-gig-page .main-div-wrapper {
+    padding-top: 1rem;
+  }
+
+  .tutor-gig-page .swiper {
+    width: 100%;
+    min-height: 300px;
+  }
+
+  .tutor-gig-page .detail-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .tutor-gig-page .swiper {
+    width: 100%;
+    min-height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .tutor-gig-page .gig-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(29, 32, 38);
+  }
+
+  .tutor-gig-page .title-subheading {
+    font-size: 1rem;
+    color: rgb(78, 85, 102);
+    margin-top: 1rem;
+  }
+
+  .tutor-gig-page .tutor-avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+
+  .tutor-gig-page .tutor-name {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(29, 32, 38);
+    margin-left: 0.5rem;
+  }
+
+  .tutor-gig-page .star-img {
+    height: 20px;
+    width: 20px;
+  }
+
+  .tutor-gig-page .rating {
+    font-size: 0.9rem;
+  }
+
+  .tutor-gig-page .rating-no {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .tutor-gig-page .tut-desc {
+    font-size: 0.8rem;
+  }
+
+  .tutor-gig-page .tutor-title {
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .tutor-gig-page .rating {
+    font-size: 0.7rem;
+  }
+
+  .tutor-gig-page .rating-no {
+    font-size: 0.6rem;
+  }
+
+  .tutor-gig-page .tut-desc {
+    font-size: 0.6rem;
+  }
+
+  .tutor-gig-page .buy-btn {
+    width: 250px;
+    font-size: 1rem;
+  }
+
+  .tutor-gig-page .feature {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .tutor-gig-page .main-div-wrapper {
+    padding: 1rem 0.7rem;
+  }
+}

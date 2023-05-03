@@ -1,0 +1,161 @@
+.stu_order_table_container .order_table tr .order_table_student_avatar img {
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+}
+
+.stu_order_table_container {
+  color: #62646a;
+}
+
+.stu_order_table_container .student_img {
+  border-radius: 50%;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+/* .stu_order_table_container .primaryBtn{
+  margin: 20px 10px;
+  cursor: pointer;
+  font-weight: 500;
+  padding: 13px 25px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  border: none;
+  color: white;
+  background: #185adb;
+  transition: all 0.25s ease;
+}
+.stu_order_table_container .primaryBtn:hover {
+  box-shadow: 0 10px 20px -10px rgba(24, 90, 219, 0.6);
+} */
+
+.stu_order_table_container .order_table_action_btn {
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: #006785;
+  font-size: 0.9rem;
+  border: none;
+  margin-top: 5px;
+  /* width: 100px; */
+}
+
+.stu_order_table_container .order_table .order_table_avatar_wrapper {
+  background-color: white;
+  gap: 0.5rem;
+}
+
+.stu_order_table_container .order_user_detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin: 0.3rem 0;
+}
+
+.stu_order_table_container .order_table tr {
+  border: 1px solid gray;
+}
+
+.stu_order_table_container .order_table {
+  /* margin-top: 1rem; */
+  background: white;
+  width: 100%;
+  /* padding: 0.5rem; */
+}
+.stu_order_table_container .gig_title {
+  color: #62646a;
+}
+
+.stu_order_table_container .order_table .order_table_gig_title div {
+  width: max-content;
+  display: inline;
+  font-family: "Lato", sans-serif;
+}
+
+.stu_order_table_container .order_table .order_table_gig_due {
+  font-family: "Lato", sans-serif;
+}
+
+.stu_order_table_container .order_table thead th {
+  /* padding: 0.5rem 0; */
+  font-size: 0.8rem;
+  text-align: start;
+  font-family: "Lato", sans-serif;
+}
+
+.stu_order_table_container .order_table thead th span {
+  font-family: "Lato", sans-serif;
+}
+
+.stu_order_table_container .order_table .order_table_gig_title div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.3rem;
+  color: #62646a;
+}
+
+.stu_order_table_container .order_table_student_name {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  color: black;
+  margin-left: 0.5rem;
+}
+
+.stu_order_table_container .order_table_price {
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+}
+
+.stu_order_table_container .order_table_status_btn {
+  background: #584aff;
+  font-size: 0.7rem;
+  color: white;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  border: none;
+  font-family: "Lato", sans-serif;
+  outline: none;
+}
+
+.stu_order_table_container .order_table thead tbody tr {
+  border: 3px solid black;
+}
+
+.stu_order_table_container .responsive-table .due-head {
+  min-width: 70px;
+}
+
+.stu_order_table_container .responsive-table .status-head {
+  min-width: 100px;
+}
+
+/* extra css */
+.stu_order_table_container .order_th {
+  background-color: white;
+  /* padding-right: 1rem; */
+  margin-left: 1rem;
+}
+
+.stu_order_table_container {
+  background-color: #f1f5f9;
+}
+
+.stu_order_table_container .stu_order_table {
+  background: white;
+  width: 100%;
+}
+
+.stu_order_table_container .table_wrapper {
+  padding: 0 2rem;
+  padding-top: 1rem;
+  background-color: white;
+  border-top: 1px solid rgb(87, 87, 87);
+}
+
+.stu_order_table_container .gig_thead_th-1 {
+  text-align: left;
+}

@@ -1,0 +1,42 @@
+.page-not-found{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.page-not-found .pnf-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-not-found .pnf-no{
+    font-size: 10rem;
+
+}
+
+.page-not-found .pnf-text{
+    /* color: #ab1322; */
+    font-size: 2rem;
+}
+
+.page-not-found .go-home-btn{
+    background-color: #1dbf73;
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    border-radius:5px ;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.page-not-found .go-home-btn:hover{
+    background-color: white;
+    color: #1dbf73;
+    border: 2px solid #1dbf73;
+    transition: 0.1s ease-in-out;
+}
